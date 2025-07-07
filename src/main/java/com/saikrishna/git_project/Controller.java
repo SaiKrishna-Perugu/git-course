@@ -10,4 +10,8 @@ public class Controller {
     public String home() {
         return "Hello, World!";
     }
+    @GetMapping("/login")
+    public String login() {
+        return "Logged in";
+    }
 }
