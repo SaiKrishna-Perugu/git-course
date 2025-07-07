@@ -9,5 +9,4 @@ public class GitProjectApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GitProjectApplication.class, args);
 	}
-
 }
