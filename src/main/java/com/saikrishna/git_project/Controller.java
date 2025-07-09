@@ -14,4 +14,9 @@ public class Controller {
     public String login() {
         return "Logged in";
     }
+
+    @GetMapping("/home")
+    public String homePage() {
+        return "At Home Page";
+    }
 }
